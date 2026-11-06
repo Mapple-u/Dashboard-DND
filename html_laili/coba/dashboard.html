@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dashboard Biodata Diri</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <table class="dashboard" width="100%" border="1">
+    <tr bgcolor="#cccccc">
+      <td colspan="2" align="center"><h2>Dashboard</h2></td>
+    </tr>
+    <tr>
+      <td width="20%" valign="top">
+        <h3>Menu</h3>
+        <ul>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="pegawai.php" target="konten">Pegawai</a></li>
+            <li><a href="barang.php" target="konten">Barang</a></li>
+            <li><a href="transaksi.php" target="konten">Transaksi</a></li>
+            <li><a href="login.html">Logout</a></li>
+        </ul>
+      </td>
+      
+<td valign="top" class="area-konten">
+    <iframe
+        name="konten"
+        srcdoc="
+          <style>
+            body {
+              margin: 0;
+              padding: 20px;
+              font-family: Arial, sans-serif;
+            }
+          </style>
+            <h3>Selamat Datang!</h3>
+            <p>Ini adalah sistem informasi menggunakan HTML.</p>
+            <p>Gunakan menu di samping untuk memilih menu.</p>
+        ">
+    </iframe>
+</td>
+    </tr>
+
+    <!-- Footer -->
+    <tr bgcolor="#eeeeee">
+      <td colspan="2" align="center">
+        &copy; Lily, All right reserved 2026
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

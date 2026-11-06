@@ -1,0 +1,293 @@
+/* Dashboard */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard table {
+  width: 100%;
+  height: 20vh;
+  border-collapse: collapse;
+}
+
+tr:first-child td {
+  background-color: #000000;
+  color: white;
+  letter-spacing: 2px;
+}
+
+td[width="20%"] {
+  background-color: #3E065F;
+  color: white;
+  letter-spacing: 2px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 15px 0;
+}
+
+li a {
+  display: block;
+  padding: 12px 15px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+li a:hover {
+  background-color: #700B97;
+}
+
+td[valign="top"]:not([width="20%"]) {
+  background-color: white;
+  padding: 0px;
+  border: none;
+  vertical-align: top;
+}
+
+.dashboard tr:last-child td {
+  background-color: #b4b4b4;
+  padding: 10px;
+  height: 15vh;
+  color: #555;
+}
+
+/* Login */
+
+body.login {
+  background: linear-gradient(270deg , #3E065F, #8E05C2);
+}
+
+.login form {
+  width: 300px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #ddaff0;
+  border-radius: 10px;
+}
+
+.login form h2 {
+  text-align: center;
+  color: #333;
+}
+
+.login form label {
+  display: inline-block;
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+.login form input[type="text"],
+.login form input[type="password"] {
+  padding: 8px;
+}
+
+.login form input[type="submit"] {
+  padding: 8px 25px;
+  background-color: #111111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login form input[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Buku */
+.buku {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.buku td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.buku tr:first-child td {
+  background-color: #8a6b6b;
+  color: white;
+  font-weight: bold;
+}
+
+.buku tr:hover {
+  background-color: #f2f2f2;
+}
+
+.buku img {
+  width: 100px;
+}
+
+/* Barang PHP */
+body.halaman-data {
+    background-color: #f8f8f8;
+}
+
+.konten-bpt {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.konten-bpt h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* TABEL BARANG, PEGAWAI, TRANSAKSI */
+/* TABEL BARANG, PEGAWAI, TRANSAKSI */
+.tabel-bpt {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+    table-layout: auto;
+    background-color: white;
+}
+
+.tabel-bpt th,
+.tabel-bpt td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tabel-bpt th {
+    background-color: #3E065F;
+    color: white;
+    font-weight: bold;
+}
+
+.tabel-bpt td {
+    background-color: white;
+}
+
+.tabel-bpt tr:hover td {
+    background-color: #f2f2f2;
+}
+
+/* Tombol Edit dan Delete */
+.tabel-bpt td a {
+    display: inline-block;
+    padding: 7px 12px;
+    margin: 3px;
+    background-color: #3E065F;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.tabel-bpt td a:hover {
+    background-color: #700B97;
+}
+
+.aksi-tabel {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+/* Tombol Input*/
+.btn-input {
+    display: inline-block;
+    background-color: #3E065F;
+    color: white;
+    padding: 11px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-input:hover {
+    background-color: #700B97;
+}
+
+/* Form Input Barang */
+.aksi-table tr:first-child td {
+    background-color: white;
+    color: #222222;
+    letter-spacing: normal;
+}
+
+.aksi-table {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.aksi-table h2 {
+    margin: 0 0 25px;
+    color: #3E065F;
+    letter-spacing: normal;
+}
+
+.aksi-table table {
+    width: 100%;
+    height: auto;
+    border-collapse: collapse;
+}
+
+.aksi-table td {
+    padding: 8px;
+    border: none;
+    background-color: white;
+    color: #222;
+    letter-spacing: normal;
+}
+
+.aksi-table td:first-child {
+    width: 180px;
+}
+
+.aksi-table input[type="text"]
+.aksi-table input[type="number"]
+.aksi-table input[type="password"] {
+    width: 280px;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.aksi-table input[type="submit"] {
+    padding: 10px 25px;
+    background-color: #3E065F;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.aksi-table input[type="submit"]:hover {
+    background-color: #700B97;
+}
+
+.area-konten {
+    background-color: white;
+    padding: 0;
+}
+
+.area-konten iframe {
+    width: 100%;
+    height: 80vh;
+    border: none;
+    display: block;
+    background-color: white;
+}
